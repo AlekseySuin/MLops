@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/AMO_lab02.iml" filepath="$PROJECT_DIR$/.idea/AMO_lab02.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/AMOlab2.iml" filepath="$PROJECT_DIR$/.idea/AMOlab2.iml" />
+>>>>>>> 125cb72f767f2c33552ccd6512371cc347e68520
     </modules>
   </component>
 </project>
