@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'ваша_ветка', url: 'https://github.com/AlekseySuin/MLops.git'
+                git branch: 'master', url: 'https://github.com/AlekseySuin/MLops.git'
             }
         }
         stage('Run Pipeline') {
