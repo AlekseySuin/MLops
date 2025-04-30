@@ -6,6 +6,11 @@ pipeline {
                 git branch: 'master', url: 'https://github.com/AlekseySuin/MLops.git'
             }
         }
+        stage('Install Dependencies') {
+            steps {
+                sh 'pip install pandas numpy scikit-learn joblib'
+            }
+        }
         stage('Run Pipeline') {
             steps {
                 sh 'chmod +x pipeline.sh'  // Даём права на выполнение
